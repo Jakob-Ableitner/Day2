@@ -1,0 +1,54 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/*selector list*/
+td, tr, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+table caption{
+    color:blue;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+tr>th{
+    color: gray;
+}
+
+#week1 + tr{
+    color: blue;
+}
+
+#week4 ~ tr{
+    color: orange;
+}
+
+#week1 + th:hover{
+    background-color: lightgray;
+}
+
+.tableLinks:link{
+    color: red;
+}
+
+.tableLinks:visited{
+    color: pink;
+}
+
+.rowHover:hover{
+    background-color: lightgrey;
+}
+
+p::first-line{
+    color: tan;
+}
+
+h2::after{
+    content: "!!";
+    color: red;
+}
